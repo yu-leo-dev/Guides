@@ -5,7 +5,9 @@ _13 Sep 2026_
 ```bash
 bunx @tanstack/cli create my-tanstack-app --yes --toolchain biome --deployment nitro --no-intent
 cd my-tanstack-app
+
 bunx --bun shadcn@latest init --base base --preset nova
+# TypeScript - yes, New York, Neural, src/styles.css, CSS variables - yes, RSC - no
 
 bunx --bun shadcn@latest add button
 ```
