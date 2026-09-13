@@ -1,6 +1,8 @@
 # TanStack Start RC
 
-## 1. [Getting Started](https://tanstack.com/start/latest/docs/framework/react/getting-started)
+_13 Sep 2026_
+
+## 1. Getting Started
 
 ```bash
 bunx @tanstack/cli create my-tanstack-app
@@ -18,19 +20,15 @@ Git - No.
 
 ```bash
 cd my-tanstack-app
-bun dev
+bun run build
+bun preview
 ```
 
 Ok. Запускается. Работает.
 
 ℹ️ Чтобы не было ошибок гидрации в консоли Chrome, желательно максимально отключить расширения в Chrome.
 
-```bash
-bun run build
-bun preview
-```
-
-⚙️ Размер основного JS-бандла: 314 kB (всего 5 запросов, 322 kB)
+📦 Размер основного JS-бандла: 342kB
 
 ⚠️ Почему-то нет файла favicon.ico (в прошлых версиях, вроде, был).
 
@@ -43,9 +41,7 @@ bunx @tanstack/cli create my-tanstack-app --blank --no-git --yes
 ```
 Все то же самое, только нет Nitro (билдится не в папку ./output, а в ./dist). Нет Tailwind и DevTools.
 
-⚙️ Размер основного JS-бандла: 314 kB (всего 5 запросов, 317 kB)
-
-## Examples
+### Examples
 
 Можно выбрать примеры.
 
@@ -58,12 +54,13 @@ Starting content-collections with config content-collections.ts
 
 Добавились: @tanstack/ai-...
 
-⚙️❗ Размер основного JS-бандла: 498 kB (всего 33 запроса, 4.1 MB)
+❗📦 Размер основного JS-бандла: 499 kB + еще много чанков
 
 **Resume**
 
-Добавились: shadcn UI, @tanstack/ai-...
-⚙️❗ Размер основного JS-бандла: 989 kB (всего 6 запросов, 2.1 MB)
+Добавились: shadcn/ui (Radix), @tanstack/ai-...
+
+❗📦 Размер основного JS-бандла: 1015 kB + чанк routes 103 kB
 
 ### Моя итоговая конфигурация
 
@@ -71,4 +68,10 @@ Starting content-collections with config content-collections.ts
 bunx @tanstack/cli create my-tanstack-app --yes --toolchain biome --deployment nitro --no-intent
 
 ```
-⚙️ Размер основного JS-бандла: 321.01 kB (Добавилось demo. Всего 8 запросов, 473 kB. Из них 2 шрифта Fraunces суммарно около 100 kB). Demo - в принципе, нормально. Готовый Layout, переключатель dark/light.
+📦 Размер основного JS-бандла: 350 kB (Добавилось demo. Всего 8 запросов, 473 kB. Из них 2 шрифта Fraunces суммарно около 100 kB). Demo - в принципе, нормально. Готовый Layout, переключатель dark/light.
+
+Ссылки
+
+1. [TanStack Start Site](https://tanstack.com/start/latest)
+2. 👉 [Getting Started](https://tanstack.com/start/latest/docs/framework/react/getting-started)
+3. [Use TanStack Start with Bun](https://bun.com/guides/ecosystem/tanstack-start)
