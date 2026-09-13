@@ -74,4 +74,4 @@ bunx @tanstack/cli create my-tanstack-app --yes --toolchain biome --deployment n
 
 1. [TanStack Start Site](https://tanstack.com/start/latest)
 2. 👉 [Getting Started](https://tanstack.com/start/latest/docs/framework/react/getting-started)
-3. [Use TanStack Start with Bun](https://bun.com/guides/ecosystem/tanstack-start)
+3. [Use TanStack Start with Bun](https://bun.com/guides/ecosystem/tanstack-start) - Hosting
