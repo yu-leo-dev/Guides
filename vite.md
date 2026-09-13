@@ -23,9 +23,6 @@ bun run build
 >
 > Особенности: Oxlint
 
-> [!NOTE]
-> Интересно, что Bun вместо связки Vite+Bub [предлагает перейти](https://bun.com/guides/ecosystem/vite) на [импорт HTML](https://bun.com/docs/bundler/fullstack) 
-
 Ссылки
 
 1. [Vite Site](https://vite.dev/)
