@@ -2,7 +2,7 @@
 
 _13 Sep 2026_
 
-1.  Get Started
+## Get Started
 
 Tailwind CSS уже включен по умолчанию в TanStack Start.
 
