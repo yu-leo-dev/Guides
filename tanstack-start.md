@@ -68,7 +68,7 @@ Starting content-collections with config content-collections.ts
 bunx @tanstack/cli create my-tanstack-app --yes --toolchain biome --deployment nitro --no-intent
 
 ```
-📦 Размер основного JS-бандла: 350 kB (Добавилось demo. Всего 8 запросов, 473 kB. Из них 2 шрифта Fraunces суммарно около 100 kB). Demo - в принципе, нормально. Готовый Layout, переключатель dark/light.
+📦 Размер основного JS-бандла: 350 kB (Добавилось demo. Всего 8 запросов, 502 kB. Из них 2 шрифта Fraunces суммарно около 90 kB). Demo - в принципе, нормально. Готовый Layout, переключатель dark/light.
 
 Ссылки
 
