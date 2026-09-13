@@ -26,7 +26,7 @@ React Router и Remix кажется проигрывают конкуренци
 
 Astro - для контент-ориентированных сайтов
 
-[Tailwind CSS 4.3](https://tailwindcss.com/) и [Shadcn/ui 4.21](https://ui.shadcn.com/) - стилизация
+[Tailwind CSS 4.3](https://tailwindcss.com/) и [Shadcn/ui 4.21](shadcn-ui.md) - стилизация
 
 Отраслевой стандарт. Особенно для ИИ.
 Недавно появился Stylex + Astryx от Meta. Посмотрим.
