@@ -1,5 +1,7 @@
 # shadcn/ui 4.21
 
+_13 Sep 2026_
+
 ```bash
 bunx @tanstack/cli create my-tanstack-app --yes --toolchain biome --deployment nitro --no-intent
 cd my-tanstack-app
