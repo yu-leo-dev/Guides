@@ -70,8 +70,6 @@ Drizzle теперь является предпочтительным уров�
 
 [VSCode 1.136](https://code.visualstudio.com/) - редактор кода
 
-ИИ - ну куда же без него :)
-
 Ссылки
 
 1. [State of JavaScript 2025](https://2025.stateofjs.com/)
